@@ -124,7 +124,7 @@ void editorProcessKeypress() {
 /*** init ***/
 
 void initEditor() {
-    if (getWindowsSize(&E.screenrows, &E.screencols) == -1) die("getWindowSize");
+    if (getWindowSize(&E.screenrows, &E.screencols) == -1) die("getWindowSize");
 }
 
 int main() {
